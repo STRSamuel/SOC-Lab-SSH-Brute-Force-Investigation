@@ -1,0 +1,8 @@
+# Trechos selecionados do journal SSH do SOC-SERVER — 07/10/2026
+# Registros fornecidos durante a investigação. Não é a exportação completa do journal.
+out 07 14:03:38 SOC-SERVER sshd-session[3991]: Failed password for samuel from 192.168.64.10 port 37330 ssh2
+out 07 14:03:57 SOC-SERVER sshd-session[3991]: Failed password for samuel from 192.168.64.10 port 37330 ssh2
+out 07 14:04:00 SOC-SERVER sshd-session[3991]: Failed password for samuel from 192.168.64.10 port 37330 ssh2
+out 07 14:04:01 SOC-SERVER sshd-session[3991]: Connection closed by authenticating user samuel 192.168.64.10 port 37330 [preauth]
+out 07 14:04:01 SOC-SERVER sshd-session[3991]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.64.10  user=samuel
+out 07 14:20:03 SOC-SERVER sshd-session[4054]: Accepted password for samuel from 192.168.64.10 port 44460 ssh2
